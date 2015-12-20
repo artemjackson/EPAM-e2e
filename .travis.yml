@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "4.1"
+
+install:
+  - npm install
+  - npm run webdriver-update
+
+script:
+  - npm run e2e-tests
