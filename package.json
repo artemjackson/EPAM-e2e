@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "devDependencies": {
-    "babel": "^6.3.13",
     "babel-core": "^6.3.21",
     "babel-register": "^6.3.13",
     "chai": "^3.4.1",
