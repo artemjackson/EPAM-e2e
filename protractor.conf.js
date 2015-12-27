@@ -21,7 +21,7 @@ exports.config = {
 
     cucumberOpts: {
         format: "pretty",
-        require: "features/step_definitions/**/*.js"
+        require: "features/step_definitions/*.js"
     },
 
     onPrepare: function () {
